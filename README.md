@@ -44,7 +44,7 @@
 ### 🔧 Requirements
 
 - NG-PocketMine-MP API **5.39.0+**
-- [EconomyAPI]([https://github.com/poggit/EconomyAPI)
+- [EconomyAPI](https://github.com/poggit/EconomyAPI)
 
 ---
 
@@ -114,7 +114,7 @@ MIT
 ### 🔧 Требования
 
 - NG-PocketMine-MP API **5.39.0+**
-- [EconomyAPI]([https://github.com/poggit/EconomyAPI)
+- [EconomyAPI](https://github.com/poggit/EconomyAPI)
 
 ---
 
