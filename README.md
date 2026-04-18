@@ -1,5 +1,10 @@
 # 🎮 PocketClans
 
+🔥 **PocketClans** — лучший плагин кланов для PocketMine-MP 5.13+ с красивым UI
+💬 Нужна помощь, заказы, обновления или просто свежие плагины?  
+→ **Пиши в нашу группу ВК**: [vk.com/pocketmine](https://vk.com/pocketmine)
+
+⭐ Поставь звезду, если плагин понравился!
 
 ![Preview](https://sun9-65.userapi.com/s/v1/ig2/5kR0GEQ9kH0Dz007nJ8rAOZXCQ95keYGUgnQn2zd4dX6jzWfEkaMXhxpIYLzJZcZfPVvHTEf3e9_n-HF6tdShbJl.jpg?quality=95&crop=0,0,805,786&as=32x31,48x47,72x70,108x105,160x156,240x234,360x351,480x469,540x527,640x625,720x703,805x786&from=bu&u=K9fz0H0NeKy-X1hwSeQNnIHdwibUaMggecfPIMZJ3vs&cs=805x0)
 
@@ -16,7 +21,6 @@
 
 ![Preview](https://sun9-30.userapi.com/s/v1/ig2/asBO1qtIz9RgW7oFnXMDLnh6PKdmgAWBF8aY0FEniXuz6yVqfPo2sy6HGUhPhcq-PFv8Ps6ycqN23qzbvxnLl2-u.jpg?quality=95&as=32x29,48x43,72x64,108x97,160x143,240x215,360x322,480x429,540x483,624x558&from=bu&cs=624x0)
 
-<a name="english"></a>
 ## 🇬🇧 ENGLISH
 
 > Feature-rich clans system for **NG-PocketMine-MP** servers
@@ -26,9 +30,7 @@
 
 
 ---
-
 ### ✨ Features
-
 | | |
 |---|---|
 | 💰 **Banking System** | Deposit & withdraw funds, only leader can withdraw |
@@ -57,48 +59,25 @@
 | `/c balancetop` | Balance top |
 
 ---
-
 ### 🔧 Requirements
-
 - NG-PocketMine-MP API **5.39.0+**
 - [EconomyAPI](https://github.com/poggit/EconomyAPI)
-
 ---
-
 ### 📥 Download
-
 > 📦 **Ready PHAR:** [Click to download](https://vk.com/club171233799?w=wall-171233799_132602)
-
----
-
-### 👤 Authors
-
-- [vk.com/pocketmine](https://vk.com/pocketmine)
-
----
-
-### 📄 License
-
-MIT
-
 ---
 
 ***
-
 # 🎮 PocketClans
-
 <a name="russian"></a>
 ## 🇷🇺 РУССКИЙ
-
 > Продвинутая система кланов для серверов **NG-PocketMine-MP**
-
 [![API](https://img.shields.io/badge/API-5.39.0%2B-blue?style=flat-square)](https://github.com/NetherGames/PocketMine-MP)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 ---
 
 ### ✨ Возможности
-
 | | |
 |---|---|
 | 💰 **Банковская система** | Депозит/снятие, только лидер может снимать |
@@ -107,7 +86,6 @@ MIT
 | ⚔️ **Управление участниками** | Исключение участников, права лидера |
 | 🎨 **Красивый UI** | SimpleForm, ModalForm, CustomForm — без внешних зависимостей |
 | 💵 **Платное создание** | Настраиваемая цена через EconomyAPI |
-
 ---
 
 ### 📋 Команды
@@ -127,26 +105,10 @@ MIT
 | `/c balancetop` | Топ богатства |
 
 ---
-
 ### 🔧 Требования
-
 - NG-PocketMine-MP API **5.39.0+**
 - [EconomyAPI](https://github.com/poggit/EconomyAPI)
-
 ---
-
 ### 📥 Скачать
-
 > 📦 **Готовый PHAR:** [Нажми чтобы скачать](https://vk.com/club171233799?w=wall-171233799_132602)
-
 ---
-
-### 👤 Авторы
-
-- [vk.com/pocketmine](https://vk.com/pocketmine)
-
----
-
-### 📄 Лицензия
-
-MIT
