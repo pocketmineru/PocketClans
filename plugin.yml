@@ -1,0 +1,12 @@
+name: PocketClans
+version: 2.0.0
+main: pocketmine_ru\PocketClans\Main
+api: 5.39.0
+description: "Кланы с банком и интеграцией EconomyAPI"
+author: "vk.com/pocketmine"
+depend: EconomyAPI
+
+permissions:
+  pocketclans.cmd:
+    description: "Доступ к командам клана"
+    default: true

@@ -1,0 +1,337 @@
+# ЛОКАЛИЗАЦИЯ POCKETCLANS
+prefix: "§8(§bКланы§8) §a> §f"
+separator: "§8─────────────────────"
+
+# Общие
+player-only: "§cКоманда только для игроков!"
+no-clan: "§cВы не состоите в клане!"
+clan-not-found: "§cКлан '§e{NAME}§c' не найден!"
+already-in-clan: "§cВы уже состоите в клане!"
+clan-exists: "§cКлан '§e{NAME}§c' уже существует!"
+
+# Создание
+clan-created: "§aКлан '§e{NAME}§a' успешно создан!"
+clan-create-price: "§f/c create <имя> §8- Создать клан (цена: §e{PRICE}§8)"
+clan-create-no-money: "§cНедостаточно денег! Нужно: §e{PRICE} §c(у вас: §e{MONEY}§c)"
+clan-create-name-invalid: "§cНазвание может содержать только §ea-z, A-Z, 0-9, _"
+clan-create-name-length: "§cНазвание должно быть от §e3 §cдо §e16 §cсимволов"
+clan-create-name-required: "§cВведите название клана!"
+
+# Выход
+left-clan: "§aВы покинули клан."
+left-clan-new-leader: "§aВы покинули клан. Новый лидер: §e{NEW_LEADER}"
+left-clan-deleted: "§aВы покинули клан. Клан удалён."
+leader-cannot-leave: "§cЛидер не может покинуть клан! Используйте §e/c disband"
+
+# Распуск
+clan-disbanded: "§aКлан '§e{NAME}§a' распущен!"
+only-leader-disband: "§cТолько лидер может распустить клан!"
+
+# Уведомления
+notify-member-joined: "§8[§bКланы§8] §fИгрок §a{NAME}§f вступил в клан!"
+notify-member-left: "§8[§bКланы§8] §fИгрок §c{NAME}§f покинул клан"
+notify-new-leader: "§8[§bКланы§8] §fИгрок §c{NAME}§f покинул клан. Новый лидер: §a{NEW_LEADER}"
+notify-member-kicked: "§8[§bКланы§8] §cИгрок §e{NAME}§c был исключен из клана!"
+
+# Приглашение
+invite-sent: "§aПриглашение отправлено игроку §e{NAME}"
+invite-not-online: "§cИгрок не найден!"
+invite-already-in-clan: "§cИгрок '§e{NAME}§c' уже состоит в клане!"
+invite-not-leader: "§cТолько лидер может приглашать!"
+need-invite: "§cУ вас нет приглашений!"
+invite-received: "§aВы получили приглашение в клан '§e{NAME}§a'!"
+member-kicked: "§aИгрок §e{NAME} §aисключен из клана!"
+
+# Принятие
+joined-clan: "§aВы вступили в клан '§e{NAME}§a'!"
+already-has-clan: "§cВы уже состоите в клане!"
+
+# Повышение
+promote-success: "§aНовый лидер клана: §e{NAME}"
+promote-not-member: "§cИгрок '§e{NAME}§c' не состоит в клане!"
+promote-not-leader: "§cТолько лидер может назначать!"
+
+# Банк
+bank-unavailable: "§cБанк недоступен!"
+bank-deposit-success: "§aВы положили §e{AMOUNT} §aв банк клана!"
+bank-withdraw-success: "§aВы сняли §e{AMOUNT} §aиз банка клана!"
+bank-not-enough: "§cНедостаточно денег! У вас: §e{AMOUNT}"
+bank-clan-not-enough: "§cНедостаточно денег в банке клана! Баланс: §e{AMOUNT}"
+bank-clan-empty: "§cВ банке клана нет денег!"
+bank-withdraw-not-leader: "§cТолько лидер может снимать деньги!"
+bank-error: "§cОшибка при операции!"
+bank-invalid-amount: "§cВведите корректную сумму!"
+
+# Приват (claim)
+only-leader-claim: "§cТолько лидер может приватить территорию!"
+claim-pos-set: "§aТочка '§e#{NUM}§a' установлена!"
+claim-not-enough-money: "§cНедостаточно денег в банке клана! Нужно: §e{PRICE}"
+claim-invalid: "§cУкажите pos1 или pos2"
+claim-not-set: "§cСначала установите обе точки!"
+claim-saved: "§aТерритория запривачена! §fПлощадь: §e{AREA} §fблоков. §fЦена: §e{PRICE}"
+claim-too-small: "§cСлишком маленькая территория! §fМинимум: §e{MIN} §fблоков"
+claim-too-big: "§cСлишком большая территория! §fМаксимум: §e{MAX} §fблоков"
+claim-limit-reached: "§cДостигнут лимит территорий! §fМаксимум: §e{MAX}"
+claim-start: "§fНачата процедура привата территории. §8Установите точку §e{POS} §8командой §e/c claim {POS}"
+claim-price: "§fЦена за приват: §e{PRICE} §fмонет за блок"
+
+# Регионы
+notify-enter-region: "§8[§bКланы§8] §fВы вошли на территорию клана §a{CLAN}"
+notify-leave-region: "§8[§bКланы§8] §fВы покинули территорию клана §c{CLAN}"
+notify-member-enter: "§8[§bКланы§8] §fИгрок §a{NAME}§f вошёл на вашу территорию"
+notify-member-leave: "§8[§bКланы§8] §fИгрок §c{NAME}§f покинул вашу территорию"
+
+# Админ
+admin-help-header: "§8=== §bАдмин-команды кланов §8==="
+admin-help-reset: "§f/clan admin reset <имя> §8- Рест клана"
+admin-help-delete: "§f/clan admin delete <имя> §8- Удалить клан"
+admin-help-setleader: "§f/clan admin setleader <клан> <игрок> §8- Сменить лидера"
+admin-help-info: "§f/clan admin info [имя] §8- Информация о клане"
+admin-help-list: "§f/clan admin list §8- Список всех кланов"
+admin-help-reload: "§f/clan admin reload §8- Перезагрузить данные"
+admin-reset-usage: "§f/clan admin reset <имя> §8- Рест клана"
+admin-reset-success: "§aКлан §e{NAME} §aресетнут!"
+admin-delete-usage: "§f/clan admin delete <имя> §8- Удалить клан"
+admin-delete-success: "§aКлан §e{NAME} §aудалён!"
+admin-setleader-usage: "§f/clan admin setleader <клан> <игрок> §8- Сменить лидера"
+admin-setleader-success: "§aЛидер клана §e{CLAN} §aизменён на §f{PLAYER}"
+admin-no-clans: "§cНет кланов!"
+admin-reload-success: "§aДанные перезагружены!"
+admin-info-header: "§8=== §bИнформация о клане §f{CLAN} §8==="
+admin-info-leader: "§7Лидер: §a{LEADER}"
+admin-info-members: "§7Участников: §f{COUNT}"
+admin-info-balance: "§7Баланс: §a{BALANCE}"
+admin-info-power: "§7Сила: §f{POWER}"
+admin-info-claims: "§7Территорий: §f{COUNT}"
+admin-list-header: "§8=== §bВсе кланы (§f{COUNT}§b) §8==="
+admin-list-item: "§f{NAME} §8- §7Лидер: §a{LEADER} §8- §7Участников: §f{COUNT}"
+
+# Прочее
+unknown-command: "§cНеизвестная команда: §e{SUBCMD}"
+unknown-command-hint: "§fВведите §e/c help"
+no-permission: "§cНет прав!"
+
+# Help
+help: |
+  §f§l▶ §b§lКЛАНЫ - ПОМОЩЬ§f§l◀
+
+  §a/c create <имя> §f- Создать клан
+  §a/c leave §f- Покинуть клан
+  §a/c invite <ник> §f- Пригласить
+  §a/c accept §f- Принять приглашение
+  §a/c members §f- Участники
+  §a/c info [имя] §f- Информация
+  §a/c bank §f- Банк клана
+  §a/c deposit <сумма> §f- Вклад
+  §a/c withdraw <сумма> §f- Снятие
+  §a/c claim pos1|pos2|save §f- Приват
+  §a/c powertop §f- Топ силы
+  §a/c balancetop §f- Топ богатства
+  §a/c disband §f- Распустить
+
+  §cАдмин: §f/c admin ...
+
+# Подсказки для форм
+help-invite: "§f/c invite <ник> §8- Пригласить игрока"
+help-claim: "§f/c claim pos1|pos2 §8- Заприватить территорию"
+help-promote: "§f/c promote <ник> §8- Назначить новым лидером"
+help-info: "§f/c info [имя] §8- Информация о клане"
+help-deposit: "§f/deposit <сумма|all> §8- Положить в банк"
+help-withdraw: "§f/withdraw <сумма|all> §8- Снять из банка"
+
+# Формы - текстовое наполнение
+form-content-main: |
+  §f§l▶ §b§lКЛАНЫ§f§l◀
+
+  §7§l▸ §fВыберите действие:
+
+  §7• §f§lМой клан§r§7 — просмотр и управление
+  §7• §f§lУчастники§r§7 — список участников
+  §7• §f§lБанк клана§r§7 — вклад/снятие средств
+
+form-content-no-clan: |
+  §f§l▶ §b§lКЛАНЫ§f§l◀
+
+  §7Вы не состоите в клане
+
+form-content-my-clan: |
+  §f§l▶ §b§l{CLAN}§f§l◀
+
+  §7§l▸ §fИнформация:
+
+  §7• §fЛидер: §a{LEADER}
+  §7• §fУчастников: §a{COUNT}
+  §7• §fСила: §f{POWER}
+  §7• §fБанк: §e{BALANCE}
+  §7• §fТерриторий: §f{CLAIMS}
+  §7• §fПлощадь: §f{AREA} блоков
+
+  §7§l▸ §fУчастники:
+
+  {MEMBERS}
+
+form-content-manage-members: |
+  §f§l▶ §c§lУПРАВЛЕНИЕ§f§l◀
+
+  §7§l▸ §fВыберите участника для исключения:
+
+form-content-create: |
+  §f§l▶ §a§lСОЗДАНИЕ КЛАНА§f§l◀
+
+  §7§l▸ §fСоздайте новый клан:
+
+  §7Цена: §e{PRICE}
+  §7Длина: §e{MIN}-{MAX} символов
+
+form-content-invite: |
+  §f§l▶ §d§lПРИГЛАШЕНИЯ§f§l◀
+
+  §7§l▸ §fПригласите игрока в клан:
+
+form-content-leave: |
+  §f§l▶ §c§lПОКИУТЬ КЛАН§f§l◀
+
+  §7Вы уверены, что хотите покинуть клан?
+
+form-content-deposit: |
+  §f§l▶ §a§lВКЛАД§f§l◀
+
+  §7§l▸ §fВведите сумму для вклада:
+
+  §7Доступно: §a{AVAILABLE}
+
+form-content-withdraw: |
+  §f§l▶ §c§lСНЯТИЕ§f§l◀
+
+  §7§l▸ §fВведите сумму для снятия:
+
+  §7Баланс клана: §e{CLAN_BALANCE}
+
+form-content-members: |
+  §f§l▶ §e§lУЧАСТНИКИ§f§l◀
+
+  §7§l▸ §fСписок участников:
+
+  {LIST}
+
+form-content-power-top: |
+  §f§l▶ §6§lТОП СИЛЫ§f§l◀
+
+  §7§l▸ §fРейтинг кланов по силе:
+
+  {LIST}
+
+form-content-balance-top: |
+  §f§l▶ §b§lТОП БОГАТСТВА§f§l◀
+
+  §7§l▸ §fРейтинг кланов по богатству:
+
+  {LIST}
+
+form-content-clan-list: |
+  §f§l▶ §b§lСПИСОК КЛАНОВ§f§l◀
+
+  §7§l▸ §fВыберите клан для просмотра:
+
+# Формы - кнопки
+btn-my-clan: "§aМой клан"
+btn-bank: "§cБанк"
+btn-members: "§eУчастники"
+btn-power-top: "§6Топ силы"
+btn-balance-top: "§bТоп богатства"
+btn-invite: "§dПриглашения"
+btn-help: "§7Помощь"
+btn-clan-list: "§fСписок кланов"
+btn-accept-invite: "§aПринять приглашение"
+btn-back: "§cНазад"
+btn-yes-leave: "§aДа, покинуть"
+btn-cancel: "§cОтмена"
+btn-leave-clan: "§6Покинуть клан"
+btn-info: "§eИнформация"
+btn-accept: "§aЯ понял"
+btn-deposit: "§aПоложить"
+btn-withdraw: "§cСнять"
+btn-all-money: "§aВсе деньги"
+btn-ok: "§aПонятно"
+btn-create-clan: "§aСоздать клан"
+btn-join-clan: "§fВступить в клан"
+btn-leader: "§aЛидер"
+btn-cmd-invite: "§f/c invite <ник>"
+btn-clan-item: "§f{NAME} §8(§f{COUNT}§8)"
+btn-member-item: "§f{NAME}"
+btn-disabled: "§8Снять"
+btn-claim: "§fПриват территории"
+btn-manage-members: "§cУправление участниками"
+btn-kick: "§cИсключить"
+btn-confirm-kick: "§cДа, исключить"
+
+# Статусы
+status-leader: "§aЛидер"
+status-member: "§fУчастник"
+status-you-leader: "§aВы лидер клана"
+status-you-member: "§fВы участник клана"
+
+# Метки
+label-clan-balance: "Баланс"
+label-your-balance: "Ваш баланс"
+label-available: "Доступно"
+label-leader: "Лидер"
+label-members: "Участников"
+label-power: "Сила"
+label-bank: "Банк"
+label-members-list: "Участники"
+
+# Тексты форм
+title-deposit-content: "Вклад в банк"
+title-withdraw-content: "Снятие из банка"
+title-members-content: "Участники"
+text-deposit-hint: "§8Нажмите §aДа §8для вклада всей суммы\n§8Нажмите §cНет §8для отмены"
+text-withdraw-hint: "§8Нажмите §aДа §8для снятия всей суммы\n§8Нажмите §cНет §8для отмены"
+
+# Формы - заголовки
+form-title-main: "§b§lКЛАНЫ §7| §0Главное меню"
+form-title-help: "§b§lКЛАНЫ §7| §0Помощь"
+form-title-power-top: "§6§lТОП СИЛЫ §7| §0Рейтинг"
+form-title-balance-top: "§b§lТОП БОГАТСТВА §7| §0Рейтинг"
+form-title-invite: "§d§lПРИГЛАШЕНИЯ §7| §0Управление"
+form-title-clan-info: "§b§l{CLAN} §7| §0Информация"
+form-title-members: "§e§lУЧАСТНИКИ §7| §0{CLAN}"
+form-title-my-clan: "§b§l{CLAN} §7| §0Управление"
+form-title-leave: "§c§lПОКИУТЬ §7| §0{CLAN}"
+form-title-bank-info: "§e§lБАНК §7| §0Информация"
+form-title-deposit: "§a§lВКЛАД §7| §0Банк"
+form-title-withdraw: "§c§lСНЯТИЕ §7| §0Банк"
+form-title-bank: "§b§lБАНК КЛАНА §7| §0Управление"
+form-content-bank-info: |
+  §f§l▶ §e§lБАНК КЛАНА§f§l◀
+
+  §7§l▸ §fИнформация:
+
+  §7• §fЛидер: §a{LEADER}
+  §7• §fУчастников: §a{COUNT}
+  §7• §fСила: §f{POWER}
+  §7• §fБанк клана: §e{BALANCE}
+  §7• §fВаш баланс: §a{YOUR_BALANCE}
+  §7• §fТерриторий: §f{CLAIMS}
+  §7• §fПлощадь: §f{AREA} блоков
+  {DESCRIPTION}
+
+  §7§l▸ §fУчастники:
+
+  {MEMBERS}
+form-title-clan-list: "§b§lКЛАНОВ §7| §0Список"
+form-title-manage-members: "§c§lУПРАВЛЕНИЕ §7| §0Участники"
+form-title-kick: "§c§lИСКЛЮЧИТЬ §7| §0Подтверждение"
+
+# Формы - контент
+content-no-clan: "§8─────────────────────\n\n§fВы не состоите в клане\n\n§8─────────────────────"
+content-top-power: "§fТоп кланов по силе:"
+content-top-balance: "§fТоп кланов по богатству:"
+content-invite: "§fПриглашение игроков в клан\n\n§8Используйте команду:\n§f/c invite <ник>\n\n§8Приглашённый игрок получит\nуведомление и сможет принять\nего через главное меню"
+content-create: "§fСоздание нового клана"
+content-create-confirm: "§fСоздать клан?"
+content-create-name-required: "§cВведите название клана!"
+content-create-rules: "§8Цена: §a{CREATE_PRICE}\n§8Длина: §e{MIN_LEN}§8-§e{MAX_LEN} §8символов\n§8Символы: §8a-z, A-Z, 0-9, _"
+content-clan-list-empty: "§fНет кланов!\n\n§8Нажмите 'Создать клан' для создания."
+content-clan-list: "§8Выберите клан:"
+content-leave: "§fВы уверены, что хотите\nпокинуть клан §a{CLAN}§f?\n\n§8Вы не сможете вернуться без\n§8нового приглашения от лидера"

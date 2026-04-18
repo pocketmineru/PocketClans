@@ -1,0 +1,65 @@
+# ============================================
+#    POCKETCLANS CONFIG
+# ============================================
+
+# Иконки для форм (из Minecraft resource pack)
+icons:
+  back: "textures/ui/back_button_default.png"
+  info: "textures/ui/infobulb.png"
+  money: "textures/ui/icon_minecoin_9x9.png"
+  leader: "textures/ui/icon_crown.png"
+  sword: "textures/ui/icon_sword.png"
+  list: "textures/ui/book_edit_default.png"
+  help: "textures/ui/book_addtextpage_default.png"
+  invite: "textures/ui/dark_plus.png"
+  member: "textures/ui/icon_multiplayer.png"
+  settings: "textures/ui/gear.png"
+  leave: "textures/ui/arrow_dark_right.png"
+  create: "textures/ui/creative_icon.png"
+  steve: "textures/ui/icon_steve.png"
+
+# Цена создания клана
+create-price: 1000
+
+# Цена за блок привата
+claim-price-per-block: 10
+
+# Сила за блок
+power-per-block: 10
+
+# Процент силы теряемой при смерти (от силы жертвы)
+power-lost-on-death-percent: 5
+
+# Ограничения названия клана
+max-clan-name-length: 16
+min-clan-name-length: 3
+
+# Максимум участников в клане
+max-members: 20
+
+# Максимум территорий у клана
+max-claims-per-clan: 1
+
+# Минимум блоков в территории
+min-claim-blocks: 16
+
+# Максимум блоков в одной территории
+max-claim-blocks: 10000
+
+# Максимум кланов у одного игрока (0 = без лимита)
+max-clans-per-player: 1
+
+# Авто-сохранение данных (секунды)
+auto-save-interval: 300
+
+# PvP между кланами
+pvp-between-clans: true
+
+# Можно ли атаковать своих членов клана
+pvp-within-clan: false
+
+# Минимальная сумма депозита
+min-deposit: 1
+
+# Минимальная сумма снятия
+min-withdraw: 1
